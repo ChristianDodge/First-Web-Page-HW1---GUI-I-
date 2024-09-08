@@ -1,0 +1,71 @@
+/*
+File: customstyles.css
+GUI Assignment: Creating Your First Web Page
+Christian Dodge
+
+This file is for stylizing the text for Genshin Impact Tier List.html.
+
+Changelog:
+9/7/2024: Created by CD and edited it significantly.
+
+Image Source(s):
+Wallpaper/background: https://wallpapercave.com/wp/wp7486978.jpg
+*/
+
+body {
+/* This is for the background image. */
+  background-image: url('https://wallpapercave.com/wp/wp7486978.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+/* This is for the background image. */
+
+/* This formats text alignment. */
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* This formats text alignment. */
+
+  th:nth-child(1), td:nth-child(1) {
+    color: black;
+    background: gold;
+}
+
+/* This formats the color of the tables. */
+  th:nth-child(2), td:nth-child(2) {
+    color: white;
+    background: green;
+}
+
+  th:nth-child(3), td:nth-child(3) {
+    color: white;
+    background: blue;
+}
+
+  th:nth-child(4), td:nth-child(4) {
+    color: white;
+    background: purple;
+}
+
+  th:nth-child(5), td:nth-child(5) {
+    color: white;
+    background: orange;
+}
+
+  th:nth-child(6), td:nth-child(6) {
+    color: white;
+    background: red;
+}
+
+  th:nth-child(7), td:nth-child(7) {
+    color: black;
+    background: red;
+}
+/* This formats the color of the tables. */
+}
